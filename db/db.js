@@ -6,7 +6,7 @@ mongoose.connect(process.env.MONGO_URI, {   // MONGO_URI=mongodb://localhost:270
     useFindAndModify: false,
     useCreateIndex: true
 }).then(() => {
-    console.log('Connection successfull!');
+    console.log('Database Connection successfull!');
 }).catch((e) => {
-    console.log('Connection failed!');
+    console.log('Database Connection failed!');
 })

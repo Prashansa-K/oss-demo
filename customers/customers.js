@@ -7,7 +7,7 @@ require('../db/db');
 const Customer = require('./Customer');
 
 const app = express();
-const port = 5000;
+const port = 10000;
 app.use(express.json())
 
 app.post('/customer', (req, res) => {

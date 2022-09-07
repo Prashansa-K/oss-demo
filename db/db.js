@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGO_URI, {   // MONGO_URI = mongodb://localhost:27017/DB_NAME
+mongoose.connect(process.env.MONGO_URI, {   // MONGO_URI=mongodb://localhost:27017/testdb
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,

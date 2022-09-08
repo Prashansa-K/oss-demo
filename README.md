@@ -51,7 +51,7 @@ Jaegar UI would be accessible at: `http://localhost:16686`
 Set the following environment variable:
 
 ```
-$ export env OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4318/v1/traces
+$ export OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4318/v1/traces
 ```
 
 For an application with http-type traffic, port 4318 is used to export the traces. For grpc-type traffic, port 4317 is used in general.
